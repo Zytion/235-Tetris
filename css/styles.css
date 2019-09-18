@@ -1,3 +1,26 @@
+h2, h3{
+    border-bottom: 0.1rem solid red;
+}
 h2{
-    border-bottom: 0.5rem solid red;
+    clear: both;
+}
+figure{
+    float: right;
+    width: 40%;
+}
+figure img {
+    width: 100%;
+}
+div{
+    float: left;
+    width: 40vw;
+    border: 0.1rem solid black;
+}
+footer{
+    clear: both;
+    position: absolute;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: -1;
 }
